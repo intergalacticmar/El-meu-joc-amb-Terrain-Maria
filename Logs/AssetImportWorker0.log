@@ -1003,3 +1003,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 347.049258 seconds.
+  path: Assets/Characters/Cool guy low poly.fbx
+  artifactKey: Guid(ffe912d32564c5f46b2f5f1502b7bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Cool guy low poly.fbx using Guid(ffe912d32564c5f46b2f5f1502b7bef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bd0b2da42b1af76c5af6930d52dbad') in 0.705829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 488.568100 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.001250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.624209 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(0d70a551adbe6f047801017f82a545c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(0d70a551adbe6f047801017f82a545c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f5e58c5037542dd8d128d55b3a5be8') in 0.000651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.613931 seconds.
+  path: Assets/Animations/Fast Run.fbx
+  artifactKey: Guid(8882ebabfef84fd45b797aa17f240206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Fast Run.fbx using Guid(8882ebabfef84fd45b797aa17f240206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036b25c93e298aa807a286ad95cff962') in 0.009659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Animations/Left Strafe Walk (1).fbx
+  artifactKey: Guid(358a52be389d5c648b67aac1bc7c24d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Left Strafe Walk (1).fbx using Guid(358a52be389d5c648b67aac1bc7c24d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051d04c09eb21e4bd632bdcd086a03aa') in 0.004703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Animations/Injured Walk Backwards.fbx
+  artifactKey: Guid(a3a013dfcfd394447ad89bff32613267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Injured Walk Backwards.fbx using Guid(a3a013dfcfd394447ad89bff32613267) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9d1d92fc30657d071e2cccda78c053') in 0.005611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/Idle.fbx
+  artifactKey: Guid(4621f3ec63959cd4690b99a02ef7b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Idle.fbx using Guid(4621f3ec63959cd4690b99a02ef7b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c330094e7184a08bea8c4e0e7e27ca0') in 0.137690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animations/Right Strafe Walk.fbx
+  artifactKey: Guid(7009ae65b2e091540b8893aff06ed9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Right Strafe Walk.fbx using Guid(7009ae65b2e091540b8893aff06ed9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a07c26bdd9e4b72719a5f8b0f511006') in 0.009959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Animations/Walker Walk.fbx
+  artifactKey: Guid(11f659912e669b24ba07831ec1e13797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Walker Walk.fbx using Guid(11f659912e669b24ba07831ec1e13797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dad8020ed4efa3687f86c191b56500') in 0.007643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animations/Right Strafe.fbx
+  artifactKey: Guid(e583c2d5b1ff22d479903fb23a9edb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Right Strafe.fbx using Guid(e583c2d5b1ff22d479903fb23a9edb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a0dd148a620c750a8f63ce42e46b81') in 0.008880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Animations/Left Strafe (1).fbx
+  artifactKey: Guid(d90dac0658e7abe4e949e0de6e77f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Left Strafe (1).fbx using Guid(d90dac0658e7abe4e949e0de6e77f6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfbfe58b40e0958b2268c3a5d8d829f') in 0.006084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 135
