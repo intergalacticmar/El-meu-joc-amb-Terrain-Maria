@@ -24,12 +24,14 @@ public class TPSController : MonoBehaviour
     [SerializeField] private float _sensorRadius = 0.2f;
     [SerializeField] private LayerMask _groundLayer;
     private bool _isGrounded;
+    private Animator _animator;
     
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         _controller = GetComponent<CharacterController>();
         _camera = Camera.main.transform;
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -59,6 +61,9 @@ public class TPSController : MonoBehaviour
     {
         Vector3 direction = new Vector3(_horizontal, 0, _vertical);
 
+        _animator.SetFloat("VelX", 0);
+        _animator.SetFloat("VelZ", direction.magnitude);
+
         if(direction != Vector3.zero)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + _camera.eulerAngles.y;
@@ -69,12 +74,17 @@ public class TPSController : MonoBehaviour
             Vector3 moveDirection = Quaternion.Euler(0, targetAngle, 0) * Vector3.forward;
 
             _controller.Move(moveDirection.normalized * _playerSpeed * Time.deltaTime);
+
+            
         }
     }
 
     void AimMovement()
     {
         Vector3 direction = new Vector3(_horizontal, 0, _vertical);
+
+        _animator.SetFloat("VelX", _horizontal);
+        _animator.SetFloat("VelZ", _vertical);
 
         float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + _camera.eulerAngles.y;
         float smoothAngle = Mathf.SmoothDampAngle(transform.eulerAngles.y, _camera.eulerAngles.y, ref turnSmoothVelocity, turnSmoothTime);
