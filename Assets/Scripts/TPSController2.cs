@@ -161,9 +161,6 @@ public class TPSController2 : MonoBehaviour
     }
 
 
-   
-
-
     void Jump()
     {
 
@@ -180,6 +177,12 @@ public class TPSController2 : MonoBehaviour
         if(_isGrounded && Input.GetButtonDown("Jump"))
         {
             _playerGravity.y = Mathf.Sqrt(_jumpHeight * -2 * _gravity);
+            _animator.SetBool("IsJumping", true);
+
+        }
+        else if(_isGrounded)
+        {
+            _animator.SetBool("IsJumping", false);
         }
         _playerGravity.y += _gravity * Time.deltaTime;
 
@@ -194,4 +197,10 @@ public class TPSController2 : MonoBehaviour
                 _animator.SetTrigger ("IsDeath");     
             }
         }
+    
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(_sensorPosition.position, _sensorRadius);
+    }
 }
